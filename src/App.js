@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <div className="header">
-        <h1>Code Fraternity Cafe Menu</h1>
+        <h1>Bakar Cafe Menu</h1>
         <i><Icons /></i>
       </div>
       <div className="ourmenu">
