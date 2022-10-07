@@ -119,6 +119,12 @@ li a {
   text-decoration: none;
   color: orange;
   padding: 0.5rem;
+  /* border: 1px solid orange; */
+  width: 4rem;
+  height: 1rem;
+  display: inline-block;
+  text-align: center;
+  line-height: 1rem;
 }
 a:hover{
   background:orange;
