@@ -118,6 +118,11 @@ li {
 li a {
   text-decoration: none;
   color: orange;
+  padding: 0.5rem;
+}
+a:hover{
+  background:orange;
+  color: white;
 }
 .ourmenu {
   display: flex;
