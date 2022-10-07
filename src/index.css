@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  height: 100vh;
+  text-decoration: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.App {
+  /* border: 1px solid orange; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1rem 10rem;
+}
+/* .main{
+ width: 600px;
+height: 200px;
+  border: 1px solid black;
+
+} */
+.kapsa {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* padding: 1rem; */
+  gap: 1rem 2rem;
+  /* border: 1px solid red; */
+}
+.card {
+  width: 500px;
+  height: 200px;
+  /* border: 1px solid red; */
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  gap: 1rem;
+}
+.image {
+  border: 3px solid orange;
+  width: 200px;
+  height: 150px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+img {
+  width: 200px;
+  height: 200px;
+}
+.content {
+  /* border: 1px solid red; */
+  padding: 0;
+  height: 160px;
+}
+.baş {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px dotted red;
+  letter-spacing: 1px;
+}
+h5,
+span {
+  margin: 0;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+span {
+  color: orange;
+}
+p {
+  margin-top: 0;
+  padding-top: 0.3rem;
+  font-size: 0.8rem;
+}
+.category {
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+.header {
+  display: flex;
+  font-size: 2rem;
+
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+i {
+  position: absolute;
+
+  right: 0;
+  top: 25%;
+}
+ul {
+  display: flex;
+  gap: 1rem;
+  border: 1px so;
+}
+li {
+  list-style: none;
+}
+li a {
+  text-decoration: none;
+  color: orange;
+}
+.ourmenu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+h2 {
+  /* border: 1px solid red; */
+  position: relative;
+}
+h2::after {
+  content: "";
+  position: absolute;
+  width: 4rem;
+  height: 3px;
+  background-color: orange;
+  bottom: -0.5rem;
+  left: 50%;
+  border-radius: 10px;
+  transform: translate(-50%);
+}
