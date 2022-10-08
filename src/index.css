@@ -22,7 +22,8 @@ code {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 1rem 10rem;
+  padding: 1rem 5rem;
+  flex-wrap: wrap;
 }
 /* .main{
  width: 600px;
@@ -31,15 +32,20 @@ height: 200px;
 
 } */
 .kapsa {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* display: grid; */
+  width: 100%;
+  /* grid-template-columns: repeat(2, 1fr); */
   /* padding: 1rem; */
   gap: 1rem 2rem;
   /* border: 1px solid red; */
 }
 .card {
   width: 500px;
-  height: 200px;
+  height: 200px; 
   /* border: 1px solid red; */
   display: grid;
   grid-template-columns: 1fr 2fr;
