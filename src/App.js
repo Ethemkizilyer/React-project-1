@@ -40,7 +40,7 @@ const categ_filter = (itemData) => {
   return (
     <div className="App">
       <div className="header">
-        <h1>Bakar Cafe Menu</h1>
+        <h1>Cafe Menu</h1>
         <i onClick={ethem}>
           <Icons />
         </i>
