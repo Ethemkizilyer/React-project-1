@@ -1,10 +1,11 @@
 import React from 'react'
-import { FaMoon } from "react-icons/fa";
+import { FaCloudMoon, FaLightbulb, FaMoon, FaRegMoon } from "react-icons/fa";
 
 function Icons() {
   return (
-    <div>
-      <FaMoon />
+    <div >
+      <FaMoon className='kapalı' />
+      <FaMoon className='acık' />
     </div>
   );
 }

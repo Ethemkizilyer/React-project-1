@@ -110,9 +110,47 @@ p {
 i {
   position: absolute;
 
+
   right: 0;
   top: 25%;
 }
+.acık{
+  position: absolute;
+  visibility: hidden;
+
+    z-index: -1;
+}
+.active{
+  /* display: none; */
+visibility:visible;
+  position: absolute;
+  z-index: 2;
+}
+.kapalı{
+  /* display: none; */
+  position: absolute;
+ z-index: 2;
+   visibility: visible;
+}
+.active1{
+  visibility: hidden;
+   z-index: -2;
+ 
+  
+  position: absolute;
+  
+}
+.active1 ~ .acık{
+  color :white;
+}
+.kapalı.active1 .header{
+  background-color: aqua !important;
+}
+.nein{
+  background-color: black;
+color: white;
+}
+
 ul {
   display: flex;
   gap: 1rem;
@@ -126,11 +164,14 @@ li a {
   color: orange;
   padding: 0.5rem;
   /* border: 1px solid orange; */
-  width: 4rem;
+  width: 5rem;
   height: 1rem;
   display: inline-block;
   text-align: center;
   line-height: 1rem;
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
 }
 a:hover{
   background:orange;

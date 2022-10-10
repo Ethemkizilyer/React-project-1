@@ -2,11 +2,11 @@ import React from 'react'
 
 
 
-const Card = ({item}) => {
+const Card = (item) => {
 const{
     name,title,price,url,category
 } = item;
-console.log(name);
+console.log(item);
 return (
     <div className='main'>
         <div className='card'>
@@ -30,4 +30,4 @@ return (
 
 }
 
-export default Card
+export default Card;

@@ -1,4 +1,4 @@
-const data = [
+const Gdata = [
   {
     name: "Bagel and cream cheese",
     title: "How we dream about our future",
@@ -175,4 +175,4 @@ const data = [
   },
 ];
 
-export default data;
+export default Gdata;
